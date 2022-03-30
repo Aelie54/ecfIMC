@@ -16,7 +16,7 @@
 
     </form>
 
-     <h2>My BMI is {{ bmiCalculation }}</h2>
+     <h2>My BMI is {{ user.bmiCalculation }}</h2>
   </div>
 </template>
 
@@ -28,7 +28,8 @@ export default {
       user: {
         height: "",
         weight: "",
-      },
+        bmiCalculation : "",7
+        },
     };
   },
 };
@@ -38,6 +39,7 @@ function FormSubmit() {
   let datas = {
     username: user.username,
     password: user.password,
+    bmiCalculation : user.bmiCalculation,
   };
 
     console.log("bonjour");
