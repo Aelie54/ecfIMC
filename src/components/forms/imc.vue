@@ -4,7 +4,7 @@
       <br />
 
       <label for="poids">poids (en kg)</label><br />
-      <input type="integer" v-model="user.height" 
+      <input type="float" v-model="user.height" 
       id="poids" min="35" max="200" /><br/><br/>
 
       <label for="taille">taille (en m)</label><br />
