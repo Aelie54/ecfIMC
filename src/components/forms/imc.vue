@@ -28,7 +28,7 @@ export default {
       user: {
         height: "",
         weight: "",
-        bmiCalculation : "",7
+        bmiCalculation : "",
         },
     };
   },
